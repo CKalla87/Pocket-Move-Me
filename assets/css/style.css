@@ -7,3 +7,8 @@
     padding: 0 !important;
     margin: 0 !important;
 }
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
