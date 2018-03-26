@@ -64,6 +64,7 @@ footer.page-footer {
 #slogan {
   font-size: 30px;
   color: white;
+  font-weight:800;
   text-shadow: 2px 4px 4px #000000;
 
 }
@@ -72,6 +73,7 @@ footer.page-footer {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   background-color: white;
+  padding-left: 20px;
 }
 
 .btn, .btn-large, .btn-small {
@@ -91,6 +93,11 @@ footer.page-footer {
   margin-top: 8px;
 }
 
+.hidden {
+  display: none;
+
+}
+
 nav ul a, nav .brand-logo {
   font-weight: bold;
   color: #2c659a;
@@ -102,17 +109,87 @@ nav ul a, nav .brand-logo {
 }
 
 .card .card-image img {
-  height: 150px;
+  height: 100px;
   opacity: 0.8;
 }
 
 .card {
- margin-top: 100px;
+ margin-top: 70px;
  margin-bottom: 100px;
+}
+
+#api1 {
+  margin-left: 30px;
+}
+
+#api3 {
+  margin-right: 30px;
+}
+
+#cityProf, #schoolDist, #apartments {
+  font-weight: bold;
 }
 
 #update {
   font-style: italic;
   text-align: center;
   text-shadow: 3px 5px 5px #000000;
+  font-weight: 1000px;
+}
+
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 60%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  font-weight: 1000;
+  border-style: solid;
+  border-width: 5px 5px 5px 5px;
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid black;
+  width: 40%;
+  border-style: solid;
+  border-width: 5px 5px 5px 5px;/* Could be more or less, depending on screen size */
+  text-align: center;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 56px;
+  font-weight: 1000;
+}
+
+#closeModal {
+  text-align: left;
+  color: red;
+  font-size: 56px;
+  font-weight: 1000;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
