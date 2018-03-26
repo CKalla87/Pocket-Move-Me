@@ -118,6 +118,7 @@ function displaySchoolInfo(cityText) {
     }
 
     else if (city === "Santa Fe") {
+        var city = "santafe";
         var st = "NM";
         var place = "70500";
         var county = "049";
@@ -311,7 +312,7 @@ function displayHousingInfo(cityText) {
         profDiv.append(pTwo);
 
         // Putting the entire apartment above the previous apartments
-        $("#prof-view").prepend(profDiv);
+        $("#prof-view").append(profDiv);
       }
 
     });

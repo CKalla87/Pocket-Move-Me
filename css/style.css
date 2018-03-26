@@ -109,13 +109,14 @@ nav ul a, nav .brand-logo {
 }
 
 .card .card-image img {
-  height: 100px;
+  height: 155px;
   opacity: 0.8;
 }
 
 .card {
  margin-top: 70px;
  margin-bottom: 100px;
+ padding: 0;
 }
 
 #api1 {
